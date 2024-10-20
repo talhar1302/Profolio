@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Hero Section */
+#hero {
+  background: linear-gradient(rgba(31, 44, 108, .65), rgba(31, 44, 108, .65));
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.download-resume{
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+#hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#hero p {
+  font-size: 1.25rem;
+}
+
+/* Resume Section */
+#resume {
+  background-color: #ffffff;
+}
+
+#resume h2 {
+  margin-bottom: 30px;
+}
+
+#resume ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#resume ul li {
+  font-size: 1.1rem;
+}
+
+/* Projects Section */
+#projects .card {
+  margin-bottom: 20px;
+}
+
+/* About Me Section */
+#about {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f0f0f0;
+}
+
+#contact p {
+  font-size: 1.2rem;
+}
+
+#contact ul {
+  padding: 0;
+}
+
+#contact ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+#contact ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+}
